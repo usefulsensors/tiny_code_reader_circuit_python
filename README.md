@@ -81,15 +81,14 @@ module, facing the camera.
 ### Power
 
 The first thing to check is that the sensor is receiving power through the
-`VDD` and `GND` wires. The simplest way to test this is to hold the sensor
-upright (so the I2C connector is at the top) and point it at your face. You
-should see a green LED light up. If you don't see any response from the LED then
-it's likely the sensor isn't receiving power, so check those wires are set up
-correctly.
+`VDD` and `GND` wires. The simplest way to test this is to look at the LED on
+the front of the module. Whenever it has power, it should be flashing blue
+multiple times a second. If this isn't happening then there's likely to be a
+wiring issue with the power connections.
 
 ### Communication
 
-If you see connection errors when running the face detection example, you may
+If you see connection errors when running the code detection example, you may
 have an issue with your wiring. Connection errors often look like this:
 
 ```bash
