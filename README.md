@@ -1,4 +1,4 @@
-# Person Sensor in CircuitPython
+# Tiny Code Reader in CircuitPython
 How to access Useful Sensor's Tiny Code Reader from CircuitPython.
 
 ## Introduction
