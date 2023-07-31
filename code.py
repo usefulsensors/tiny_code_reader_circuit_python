@@ -49,7 +49,7 @@ while True:
 
     if message_length > 0:
         try:
-            message_string = bytearray(message_bytes).decode("utf-8")
+            message_string = bytearray(message_bytes[0:message_length]).decode("utf-8")
             print(message_string)
         except:
             print("Couldn't decode as UTF 8")
